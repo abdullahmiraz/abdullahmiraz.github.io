@@ -37,3 +37,16 @@ body {
 .interests > p{
   margin-left: 30px;
 }
+
+@media screen and (min-width: 840px){
+  .my-details{
+
+    margin-top: 5rem;
+  }
+}
+@media screen and (min-width: 640px){
+  .my-details{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
