@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+body {
+  font-family: "Source Code Pro", monospace;
+  border: 2px solid red ; 
+  text-overflow: none;
+}
+
+.navbar > ul {
+}
+.navbar-collapse ul li {
+    list-style-type: none; 
+    font-weight:600;
+    padding: 3px 8px;
+}
+ 
+.info-miraz > p{
+    line-height:1.8!important;
+    margin: 0;
+}
+ 
