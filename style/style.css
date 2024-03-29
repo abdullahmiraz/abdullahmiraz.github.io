@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 body {
-  font-family: "Source Code Pro", monospace; 
+  font-family: "Source Code Pro", monospace;
   text-overflow: none;
 }
 
@@ -16,36 +16,66 @@ body {
   line-height: 1.8 !important;
   margin: 0;
 }
-.interest-name::before {
+.coloring::before {
   content: "";
   display: inline-block;
-  width: 40px;
-  height: 20px;
+  width: 60px;
+  height: 30px;
   /* border-radius: 80%; */
   background-color: #f5f116;
-  margin-right: -13px;
+  margin-right: -33px;
   margin-top: 25px;
 }
-.learning-now::before {
+.color-1::before {
   background-color: #ff806a;
-
 }
-.interested-in::before {
+.color-2::before {
   background-color: #12ff05;
-
 }
-.interests > p{
+
+.expertise::before {
+  background-color: #5cf9ea;
+}
+.comfortable::before {
+  background-color: #12ff05;
+}
+.familiar::before {
+  background-color: #fff52d;
+}
+.tools::before {
+  background-color: #f3744e;
+}
+.concepts::before {
+  background-color: #ec83b4;
+}
+.learning::before {
+  background-color: #8aff9c;
+}
+
+.interests > p {
   margin-left: 30px;
 }
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.column-bordering {
+  border: 1px solid black;
+  padding: 10px;
+}
+.bordering-box {
+  border: 1px solid black;
+  padding: 10px;
+}
 
-@media screen and (min-width: 840px){
-  .my-details{
-
+@media screen and (min-width: 840px) {
+  .my-details {
     margin-top: 5rem;
   }
 }
-@media screen and (min-width: 640px){
-  .my-details{
+@media screen and (min-width: 640px) {
+  .my-details {
     margin-left: 1rem;
     margin-right: 1rem;
   }
