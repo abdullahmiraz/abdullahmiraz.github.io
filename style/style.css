@@ -52,17 +52,29 @@ body {
   background-color: #8aff9c;
 }
 
+ 
 .interests > p {
   margin-left: 30px;
 }
-.container-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+
+.skill-container {
+  display: flex; 
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 auto !important;
 }
+.skill-container > * {
+  /* background-color: red; */
+  width: max-content !important;
+  padding-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+
 .column-bordering {
   border: 1px solid black;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .bordering-box {
   border: 1px solid black;
